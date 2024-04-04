@@ -15,10 +15,10 @@ cap = cv2.VideoCapture(0)
 prev_position = None
 
 # Used to increase sensitivity
-SCALING_FACTOR = 15
+SCALING_FACTOR = 30
 
 def draw_keypoints(outputs, frame, prev_position):
-    keypoints_indices = [2] 
+    keypoints_indices = [1] 
 
     for i in range(len(outputs[0]['keypoints'])):
         keypoints = outputs[0]['keypoints'][i].cpu().numpy()
@@ -40,6 +40,7 @@ def draw_keypoints(outputs, frame, prev_position):
 # Main Loop
 while True:
     ret, frame = cap.read()
+    frame = cv2.flip(frame, 1)
     if not ret: break
 
     frame_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)

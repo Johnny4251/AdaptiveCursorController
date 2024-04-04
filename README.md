@@ -2,7 +2,7 @@
 
 **Project Overview**
 
-In today's digital age, accessibility is crucial for ensuring everyone can benefit from technology. However, individuals with limited arm mobility often find traditional input devices like mice and keyboards challenging to use. The Adaptive Cursor Controller project addresses this issue head-on by offering an innovative, hands-free solution. Utilizing cutting-edge computer vision technology, our project empowers users to control the mouse cursor through simple head movements, making digital accessibility a reality for those who need it most.
+In today's digital age, accessibility is crucial for ensuring everyone can benefit from technology. However, individuals with limited arm mobility often find traditional input devices like mice and keyboards challenging to use. The Adaptive Cursor Controller demo addresses this issue head-on by offering an innovative, hands-free solution. Utilizing cutting-edge computer vision technology, our project empowers users to control the mouse cursor through simple head movements, making digital accessibility a reality for those who need it most.
 
 **Artificial Intelligence**
 
